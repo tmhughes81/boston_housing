@@ -14546,7 +14546,7 @@ M6uZ/wMkwZ6zE1SGIQAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> The model trained with a maximum depth of 1 suffers from high variance.  When the model is trained with a maximum depth of 10, it suffers from high bias.  Visually, the high variance in the depth 1 model can be detected from the (relatively) low scores for both the training and validation sets.  In contrast, the high bias of the depth 10 model can visually be seen by the distance between the validation score and the training score.</p>
+<p><strong>Answer: </strong> The model trained with a maximum depth of 1 suffers from high bias.  When the model is trained with a maximum depth of 10, it suffers from high variance.  Visually, the high bias in the depth 1 model can be detected from the (relatively) low scores for both the training and validation sets, as the model's bias fails to account for the training data.  In contrast, the high variance of the depth 10 model can visually be seen by the distance between the validation score and the training score, where the model matches the training data well, but poorly generalizes to new data.</p>
 
 </div>
 </div>
